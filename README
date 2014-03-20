@@ -1,0 +1,11 @@
+Current Version: 1.3
+
+AutoY is a tool that runs alongside KMP editors to facilitate Y positioning of objects in a Mario Kart Wii custom course. Currently, it works with KMP Cloud. KMP Modifier, a program similar to KMP Cloud, already has an auto-y feature.
+
+Usage is outlined in this forum post: http://www.mariokartwii.com/f101/magicy-kmp-cloud-auto-generated-y-coordinates-103337.html
+
+There are two components, the autohotkey script which allows the use of a global hotkey (ctrl-y), and the python script, which does the y value calculations.
+
+Python 2.7 is a current requirement, but hopefully I fix the codeso that it would work with either 2.7 or 3.x soon. Another possibility is rewriting the algorithm completely in the autohotkey script.
+
+For compiling, autohotkey must be installed. (http://www.autohotkey.com/) From the start menu select the "Convert .ahk to .exe" option and set the input, output, and icon options and then click convert.
